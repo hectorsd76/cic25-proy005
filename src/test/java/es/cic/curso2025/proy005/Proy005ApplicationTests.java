@@ -19,13 +19,14 @@ import static org.springframework.test.web.servlet.result.MockMvcResultHandlers.
 @AutoConfigureMockMvc
 class Proy005ApplicationTests {
 
+	/**
+	 Simula entrada de HTTP 
+	 */
 	@Autowired
 	private MockMvc mockMvc;
 
 
-	/**
-	 * 
-	 */
+	
 	@Test
 	void testTelefonoDelete() throws Exception {
 		mockMvc
